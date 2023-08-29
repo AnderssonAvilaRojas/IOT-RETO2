@@ -17,3 +17,7 @@ if( tipo == "critico")
    wait 1000
    stop
 end
+
+
+
+
