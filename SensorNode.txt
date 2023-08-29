@@ -1,7 +1,6 @@
 set ite 0
 battery set 100
-inc ite
-print ite
+
 
 set ant 999
 
@@ -9,6 +8,8 @@ atget id id
 getpos2 lonSen latSen
 
 loop
+cprint ite
+inc ite
 wait 100
 read mens
 rdata mens tipo valor
